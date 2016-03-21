@@ -1,0 +1,86 @@
+* {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+      font-family: Helvetica, sans-serif;
+      font-size: 125%;
+      background-color: #99CC77;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+section {
+      background-color: #CCDD99;
+      padding: 25px 20px 25px 20px;
+      margin-bottom: 25px;
+}
+
+.menuitem {
+      font-family: Helvetica, sans-serif;
+      padding: 15px; 
+      margin: 0px;
+}
+
+.paragraph {
+      font-family: Helvetica, sans-serif;
+      margin-top: 15px;
+      padding: 2px 15px;
+      font-size: 150%;        
+}
+
+.menuinfo {
+  background-color: #C09998;  
+  margin-top: 15px;
+  padding: 2px 15px;
+  height: 750px;
+}
+
+.navbar-header .navbar-brand {
+        font-family: Helvetica, sans-serif;
+        font-size: 1.6em;
+        color: #FFFFFF;
+        background-color: #3355AA;
+}
+
+.navbar-default{
+        background-color: #CCDD99;
+        border:0px;
+        border-radius: 0px;
+}
+
+.navbar-default .navbar-brand {
+  /*color: #442299;*/
+  font-size: 175%;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .navbar-collapse {
+    background-color: #CCDD99;
+    font-size: 175%;
+    font-weight: bolder;
+  }
+}
+
+.gotop {
+      color:#DDC87F;
+      background-color: #3355AA;
+      width:100%;
+      text-align: center;
+      position: relative;
+}
+
+.gotop:hover, .gotop:active {
+    color: #FFFFFF;
+    background-color: #227799;
+}
+
+
+.navbar-default .navbar-toggle{
+    border: 2px;
+    margin-right: 30px;
+    background-color: #FFFFFF;
+}
